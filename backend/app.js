@@ -33,20 +33,21 @@ app.use(
 );
 
 // Set the _csrf token and create req.csrfToken method
-app.use(
-    csurf({
-        cookie: {
-            secure: isProduction,
-            sameSite: isProduction && "Lax",
-            httpOnly: true
-        }
-    })
-);
+// app.use(
+//     csurf({
+//         cookie: {
+//             secure: isProduction,
+//             sameSite: isProduction && "Lax",
+//             httpOnly: true
+//         }
+//     })
+// );
 
 app.use(routes);
 
 // Catch unhandled requests and forward to error handler.
 app.use((_req, _res, next) => {
+    console.log(_req.body)
     const err = new Error("The requested resource couldn't be found.");
     err.title = "Resource Not Found";
     err.errors = ["The requested resource couldn't be found."];
