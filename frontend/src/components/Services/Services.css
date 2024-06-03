@@ -1,0 +1,28 @@
+.servicesListContainer {
+    margin: 30px 60px 20px 80px;
+    overflow: scroll;
+}
+
+.serviceHeading {
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    gap: 10px;
+    font-family: "Dawning of a New Day", cursive;
+    font-size: 24px;
+
+}
+
+.serviceHeading h3 {
+    margin: 0
+}
+
+.serviceCard img {
+    width: auto;
+    height: 5vh;
+}
+
+.serviceDetails p {
+    font-family: "Red Hat Display", sans-serif;
+    margin: 10px 0px 40px 42px;
+}

@@ -1,0 +1,90 @@
+.testimonialBody {
+    font-family: "Red Hat Display", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 20px;
+    width: 100%;
+    flex-flow: column;
+    /* background-color: #f0f0f0; */
+}
+
+.testimonialIntro {
+    font-family: "Dawning of a New Day", cursive;
+    font-size: 28px;
+    margin: 0;
+}
+
+.testimonialsContainer {
+    position: relative;
+    width: 80%;
+
+    padding: 20px;
+    /* border: 2px solid #ccc; */
+    border-radius: 8px;
+    /* background-color: #fff; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    overflow: auto;
+    font-family: "Red Hat Display", sans-serif;
+    margin-bottom: 200px;
+}
+
+.testimonial {
+    flex: 1;
+    padding: 10px 80px 10px 80px;
+    box-sizing: border-box;
+    font-family: "Red Hat Display", sans-serif;
+    line-height: 1.5;
+    font-size: 14px;
+}
+
+.scroll-btn {
+    position: absolute;
+    /* top: 50%; */
+    /* transform: translateY(-50%); */
+    /* background-color: rgba(0, 0, 0, 0.5); */
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    z-index: 1;
+    transition: transform 0.3s ease;
+}
+
+.scroll-btn.left {
+    left: 10px;
+    color: rgb(159, 159, 158);
+    background-color: white;
+    font-size: large;
+    transition: transform 0.3s ease;
+}
+
+.scroll-btn.right {
+    right: 10px;
+    color: rgb(159, 159, 158);
+    background-color: white;
+    font-size: large;
+    transition: transform 0.3s ease;
+}
+
+.scroll-btn.left:hover,
+.scroll-btn.right:hover {
+    color: rgb(213, 19, 124);
+    transform: scale(1.2);
+}
+
+.fa-solid.fa-quote-left {
+    color: rgb(213, 19, 124);
+    display: flex;
+    justify-content: left;
+}
+
+.fa-solid.fa-quote-right {
+    color: rgb(213, 19, 124);
+    display: flex;
+    justify-content: right;
+}

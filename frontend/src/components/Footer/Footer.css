@@ -1,0 +1,75 @@
+.footer {
+    background-color: white;
+}
+
+.footerCenter {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    border-top: 1px solid rgb(94, 93, 93);
+    color: black;
+    padding: 10px;
+    /* text-align: center; */
+    font-family: "Red Hat Display", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+    z-index: 10;
+    background-color: white;
+}
+
+.socialLinks a {
+    color: black;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 20px;
+    transition: transform 0.3s ease;
+}
+
+.socialLinks a:hover {
+    cursor: pointer;
+    color: rgb(213, 19, 124);
+    transform: scale(1.1);
+}
+
+.fa-brands.fa-facebook-f:hover,
+.fa-brands.fa-instagram:hover {
+    cursor: pointer;
+    color: rgb(213, 19, 124);
+    transform: scale(1.1);
+}
+
+.connectPara:hover {
+    cursor: default
+}
+
+.socialLinks,
+.connectPara {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: row;
+}
+
+.connectPara {
+    font-family: "Dawning of a New Day", cursive;
+    font-weight: bold;
+    font-size: large;
+}
+
+p.connectPara {
+    margin: 5px 5px
+}
+
+.connectWithUs {
+    position: absolute;
+    right: 20px;
+    margin: 0 15px;
+    padding: 1px 6px;
+}
+
+.logo img {
+    width: auto;
+    height: 10vh;
+}

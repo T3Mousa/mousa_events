@@ -1,0 +1,15 @@
+.homeIntro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column wrap;
+    font-family: "Red Hat Display", sans-serif;
+    margin: 20px 80px;
+    text-align: center;
+    line-height: 1.75;
+}
+
+.opening {
+    font-family: "Dawning of a New Day", cursive;
+    font-size: 28px;
+}

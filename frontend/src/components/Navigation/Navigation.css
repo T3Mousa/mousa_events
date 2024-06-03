@@ -1,0 +1,207 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navBar {
+    display: flex;
+    flex-flow: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    /* padding-right: 10px; */
+    border-bottom: 1px solid rgb(94, 93, 93);
+    margin-right: 10px;
+    margin-left: 20px;
+    /* place-items: center; */
+    width: 75%
+}
+
+.homeButton {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 10px 0px 10px;
+    /* padding-right: 10px; */
+    margin-right: 20px;
+    margin-left: 20px;
+    /* place-items: center; */
+    text-decoration: none;
+    color: black;
+    font-size: 50px;
+    transition: transform 0.3s ease;
+}
+
+.homeButton:hover {
+    transform: scale(1.01);
+}
+
+.homeButton img {
+    width: auto;
+    height: 10vh
+}
+
+.homeButton p {
+    /* margin-bottom: auto; */
+    margin-top: -20px;
+    margin-bottom: 20px;
+    font-family: "Dawning of a New Day", cursive;
+    /* font-family: "Red Hat Display", sans-serif; */
+    font-weight: bold;
+    font-style: normal;
+    font-size: 50px;
+    text-align: center;
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap; */
+}
+
+.menuBar {
+    font-family: "Red Hat Display", sans-serif;
+    font-size: 13px;
+
+}
+
+.home,
+.about,
+.services,
+.gallery,
+.testimonials {
+    margin-right: 38px;
+    color: black;
+    text-decoration: none;
+    transition: transform 0.3s ease;
+}
+
+.contact {
+    color: black;
+    text-decoration: none;
+    transition: transform 0.3s ease;
+}
+
+.home:hover,
+.about:hover,
+.services:hover,
+.gallery:hover,
+.testimonials:hover,
+.contact:hover {
+    cursor: pointer;
+    color: rgb(213, 19, 124);
+    font-weight: 600;
+}
+
+.hidden {
+    display: none;
+}
+
+button.menuButton {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    height: auto;
+    width: 100%;
+    place-items: center;
+    color: rgb(159, 159, 158);
+    background-color: white;
+    border: none;
+    font-weight: bold;
+    font-size: 28px;
+    color: rgb(34, 34, 34);
+    cursor: pointer;
+    margin-left: 5px;
+    margin-right: 5px;
+    visibility: hidden;
+}
+
+.fa-solid.fa-bars {
+    transition: transform 0.3s ease;
+}
+
+.fa-solid.fa-bars:hover {
+    color: rgb(213, 19, 124);
+    transform: scale(1.1);
+}
+
+.menuButtonDiv {
+    position: absolute;
+    left: 20px;
+    top: 15%
+}
+
+.menu-dropdown {
+    position: absolute;
+    background-color: white;
+    border: 2px solid rgb(213, 19, 124);
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.3);
+    z-index: 1;
+    margin: 0;
+    padding: 5px 5px 5px 10px;
+    border-radius: 7px;
+    list-style-type: none;
+    left: 15px;
+    top: 30px;
+    width: 120px;
+    font-family: "Red Hat Display", sans-serif;
+    font-size: 14px;
+
+}
+
+.homeItem,
+.aboutItem,
+.servicesItem,
+.galleryItem,
+.testimonialsItem,
+.contactItem {
+    text-decoration: none;
+    text-align: left;
+    color: black;
+    transition: transform 0.3s ease;
+}
+
+.homeItem:hover,
+.aboutItem:hover,
+.servicesItem:hover,
+.galleryItem:hover,
+.testimonialsItem:hover,
+.contactItem:hover {
+    cursor: pointer;
+    color: rgb(213, 19, 124);
+    font-weight: 600;
+}
+
+
+
+@media only screen and (max-width: 767px) {
+    button.menuButton {
+        visibility: visible;
+        color: rgb(94, 93, 93);
+    }
+
+    .menuBar {
+        visibility: hidden;
+    }
+
+    .navBar {
+        border-bottom: none;
+    }
+
+}
+
+
+@media only screen and (max-width: 500px) {
+    .homeButton p {
+        font-size: 30px;
+    }
+
+
+}
+
+@media only screen and (max-width: 400px) {
+    .menu-dropdown {
+        top: 60px;
+        font-size: 12px;
+    }
+}
