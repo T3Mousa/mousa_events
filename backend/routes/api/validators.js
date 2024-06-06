@@ -15,7 +15,7 @@ const validateContactUs = [
         .withMessage('Please provide a valid phone number'),
     check('message')
         .notEmpty()
-        .withMessage('Please provide a bried message'),
+        .withMessage('Please provide a brief message'),
     handleValidationErrors
 ];
 

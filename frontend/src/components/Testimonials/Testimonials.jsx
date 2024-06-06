@@ -14,7 +14,7 @@ const testimonials = [
     },
     {
         id: 3,
-        author: "Anonymous",
+        author: "Chris F.",
         review: "Amanda made my 60th birthday party a fun and stress free event! I have no reservations hiring her again for another event! She is amazing!"
     },
     {
@@ -50,14 +50,14 @@ const Testimonials = () => {
             <p className="testimonialIntro">testimonials</p>
 
             <div className="testimonialsContainer">
-                <button className="scroll-btn left" onClick={prevTestimonial}><i class="fa-solid fa-arrow-left"></i></button>
+                <button className="scroll-btn left" onClick={prevTestimonial}><i className="fa-solid fa-arrow-left"></i></button>
                 <div className="testimonial">
-                    <i class="fa-solid fa-quote-left"></i>
+                    <i className="fa-solid fa-quote-left"></i>
                     <p>{testimonials[current].review}</p>
-                    <i class="fa-solid fa-quote-right"></i>
+                    <i className="fa-solid fa-quote-right"></i>
                     <p> - {testimonials[current].author}</p>
                 </div>
-                <button className="scroll-btn right" onClick={nextTestimonial}><i class="fa-solid fa-arrow-right"></i></button>
+                <button className="scroll-btn right" onClick={nextTestimonial}><i className="fa-solid fa-arrow-right"></i></button>
             </div>
 
         </div>

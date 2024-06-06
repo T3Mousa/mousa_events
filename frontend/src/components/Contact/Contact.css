@@ -1,0 +1,125 @@
+.contactUsBody {
+    margin: 20px 60px 200px 80px;
+    overflow: scroll;
+    margin-top: 20px;
+}
+
+.contactUsIntro {
+    font-family: "Dawning of a New Day", cursive;
+    font-size: 36px;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.contactUsParas {
+    display: block;
+    text-align: center;
+    margin: auto 60px;
+    font-family: "Red Hat Display", sans-serif;
+
+}
+
+.inquiryForm {
+    font-family: "Red Hat Display", sans-serif;
+    display: flex;
+    flex-flow: column;
+    gap: 10px;
+    /* align-items: center; */
+    justify-content: center;
+    margin-left: 60px;
+    margin-right: 80px;
+    margin-top: 50px;
+}
+
+input {
+    /* margin-left: 5px; */
+    display: flex;
+    margin-top: 2px;
+    height: 2.5vh;
+    width: 100%;
+    font-family: "Red Hat Display", sans-serif;
+    padding: 5px;
+    font-size: 16px;
+}
+
+input::placeholder,
+textarea::placeholder {
+    color: rgb(196, 196, 196);
+}
+
+input:focus {
+    outline: none;
+    border: 2px solid rgb(213, 19, 124);
+    border-radius: 5px;
+}
+
+textarea {
+    /* margin-left: 5px; */
+    display: flex;
+    margin-top: 2px;
+    width: 100%;
+    height: 20vh;
+    font-family: "Red Hat Display", sans-serif;
+    padding: 5px;
+    font-size: 16px;
+    border-radius: 2px;
+}
+
+textarea:focus {
+    outline: none;
+    border: 2px solid rgb(213, 19, 124);
+    border-radius: 5px;
+}
+
+label {
+    margin-top: 10px;
+    font-family: "Dawning of a New Day", cursive;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+input.eventDate {
+    width: fit-content;
+    cursor: default;
+    color: rgb(90, 90, 90);
+}
+
+button.submitForm {
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    background-color: rgb(159, 159, 158);
+    border: none;
+    padding: 8px 14px;
+    font-family: "Red Hat Display", sans-serif;
+    font-size: 16px;
+    width: fit-content;
+    border-radius: 10px;
+    place-items: center;
+    margin-top: 15px;
+
+}
+
+button.submitForm:hover {
+    color: white;
+    background-color: rgb(213, 19, 124);
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.submitButtonDiv {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+@media only screen and (max-width: 767px) {
+    p.contactUsIntro {
+        margin-top: -25px;
+    }
+}

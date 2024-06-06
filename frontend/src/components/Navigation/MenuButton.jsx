@@ -110,7 +110,7 @@ function MenuButton() {
                                 className="contactItem"
                                 onClick={() => setShowMenu(false)}
                             >
-                                <p>CONTACT US</p>
+                                <p>CONTACT</p>
                             </NavLink>
 
                         </div>

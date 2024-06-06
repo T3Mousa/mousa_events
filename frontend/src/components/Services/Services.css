@@ -1,5 +1,5 @@
 .servicesListContainer {
-    margin: 30px 60px 20px 80px;
+    margin: 20px 60px 200px 80px;
     overflow: scroll;
 }
 
@@ -25,4 +25,21 @@
 .serviceDetails p {
     font-family: "Red Hat Display", sans-serif;
     margin: 10px 0px 40px 42px;
+}
+
+.servicesIntro {
+    font-family: "Dawning of a New Day", cursive;
+    font-size: 36px;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 20px;
+}
+
+@media only screen and (max-width: 767px) {
+    p.servicesIntro {
+        margin-top: -10px;
+    }
 }

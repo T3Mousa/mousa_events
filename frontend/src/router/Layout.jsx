@@ -16,9 +16,11 @@ export default function Layout() {
     return (
         <div className="appWrapper">
             <ModalProvider>
-                <Navigation />
-                {isLoaded && <Outlet />}
-                <Modal />
+                <div className="content">
+                    <Navigation />
+                    {isLoaded && <Outlet />}
+                    <Modal />
+                </div>
                 <Footer />
             </ModalProvider>
         </div>

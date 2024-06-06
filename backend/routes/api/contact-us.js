@@ -11,7 +11,7 @@ router.get('/', async (req, res) => {
 })
 
 router.post('/', async (req, res) => {
-    const { name, email, phone, message } = req.body;
+    const { name, email, phone, eventDate, message } = req.body;
 
     // Create a transporter using SMTP transport
     const transporter = nodemailer.createTransport({
@@ -30,7 +30,7 @@ router.post('/', async (req, res) => {
         from: email,
         to: USER, // Change to your business email address
         subject: 'New Inquiry Form Submission',
-        text: `Name: ${name}\nEmail: ${email}\nPhone: ${phone}\nMessage: ${message}`
+        text: `Name: ${name}\nEmail: ${email}\nPhone: ${phone}\nEvent Date: ${eventDate}\nMessage: ${message}`
     };
 
     // Send email

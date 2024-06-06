@@ -1,29 +1,67 @@
 .footer {
     background-color: white;
+    display: none;
+    /* Initially hidden */
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    /* padding: 10px; */
+}
+
+.footer.visible {
+    display: block;
+    /* Shows only when the user scrolls to the bottom */
 }
 
 .footerCenter {
     position: fixed;
     bottom: 0;
     width: 100%;
-    border-top: 1px solid rgb(94, 93, 93);
+    border-top: 5px double rgb(188, 188, 188);
     color: black;
-    padding: 10px;
+    padding: 8px;
     /* text-align: center; */
     font-family: "Red Hat Display", sans-serif;
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-flow: column;
+    flex-flow: row;
+    /* gap: 50px; */
     z-index: 10;
     background-color: white;
+}
+
+.footerContact {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    font-size: 14px;
+}
+
+.footerContact p.footerEmail a,
+.footerContact p.footerPhone a {
+    text-decoration: none;
+    color: black;
+    margin-left: 5px;
+}
+
+.footerContact p.footerEmail a:hover {
+    cursor: pointer;
+    color: rgb(213, 19, 124);
+}
+
+.footerContact p.footerPhone {
+    cursor: default;
+    margin-top: 0;
 }
 
 .socialLinks a {
     color: black;
     text-decoration: none;
     margin: 0 10px;
-    font-size: 20px;
+    font-size: 18px;
     transition: transform 0.3s ease;
 }
 
@@ -55,21 +93,21 @@
 .connectPara {
     font-family: "Dawning of a New Day", cursive;
     font-weight: bold;
-    font-size: large;
+    font-size: 20px;
 }
 
 p.connectPara {
-    margin: 5px 5px
+    margin: 2px 2px
 }
 
 .connectWithUs {
     position: absolute;
     right: 20px;
-    margin: 0 15px;
-    padding: 1px 6px;
+    /* margin: 0 15px; */
+    /* padding: 1px 6px; */
 }
 
 .logo img {
     width: auto;
-    height: 10vh;
+    height: 8vh;
 }

@@ -3,10 +3,9 @@ import "./Gallery.css"
 const Gallery = () => {
 
     return (
-        <>
-            <h2>This is the Gallery page!</h2>
-
-        </>
+        <div className="galleryBody">
+            <p className="galleryIntro">gallery</p>
+        </div>
 
     );
 }

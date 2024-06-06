@@ -5,3 +5,8 @@ html {
   padding: 0;
 
 }
+
+.content {
+  min-height: 100vh;
+  margin-bottom: 2000px;
+}

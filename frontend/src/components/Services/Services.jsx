@@ -23,8 +23,8 @@ const Services = () => {
     ];
 
     return (
-        <>
-            {/* <h2>This is the Services page!</h2> */}
+        <div className="servicesBody">
+            <p className="servicesIntro">services</p>
             <div className="servicesListContainer">
                 {services.map(service => (
                     <div key={service.id} className="serviceCard">
@@ -40,7 +40,7 @@ const Services = () => {
 
             </div>
 
-        </>
+        </div>
 
     );
 }

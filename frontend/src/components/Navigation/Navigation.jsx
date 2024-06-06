@@ -20,7 +20,7 @@ function Navigation() {
                         <NavLink to="/services" className="services">SERVICES</NavLink>
                         <NavLink to="/gallery" className="gallery">GALLERY</NavLink>
                         <NavLink to="/testimonials" className="testimonials">TESTIMONIALS</NavLink>
-                        <NavLink to="/contact-us" className="contact">CONTACT US</NavLink>
+                        <NavLink to="/contact-us" className="contact">CONTACT</NavLink>
                     </div>
                     {/* <div className="menuButton">
                         <i className="fa-solid fa-bars"></i>

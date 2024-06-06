@@ -1,0 +1,72 @@
+.aboutBody {
+    margin: 20px 60px 200px 80px;
+    overflow: scroll;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+}
+
+.aboutIntro {
+    font-family: "Dawning of a New Day", cursive;
+    font-size: 36px;
+    margin: 0 0 20px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.aboutIntro2 {
+    font-family: "Dawning of a New Day", cursive;
+    font-size: 36px;
+    margin: 10px 0 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.myImages img {
+    width: auto;
+    height: 50vh;
+    border-radius: 5%;
+}
+
+.aboutMe {
+    display: block;
+    text-align: center;
+    margin: auto 60px;
+    font-family: "Red Hat Display", sans-serif;
+
+}
+
+.aboutMe p.signature {
+    display: block;
+    text-align: center;
+    margin: auto 60px;
+    font-family: "Dawning of a New Day", cursive;
+    font-size: 36px;
+}
+
+
+@media only screen and (max-width: 767px) {
+    .aboutBody {
+        margin-top: -10px;
+    }
+
+    .aboutMe {
+        margin: auto 5px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .myImages img {
+        width: 75%;
+        height: 75%;
+        border-radius: 5%;
+    }
+
+    .myImages {
+        display: flex;
+        justify-content: center;
+    }
+}
