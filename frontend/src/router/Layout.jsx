@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { Outlet } from "react-router-dom";
-import { ModalProvider, Modal } from "../context/Modal";
+// import { ModalProvider, Modal } from "../context/Modal";
 import Navigation from "../components/Navigation";
 import Footer from "../components/Footer";
 
@@ -15,14 +15,14 @@ export default function Layout() {
 
     return (
         <div className="appWrapper">
-            <ModalProvider>
-                <div className="content">
-                    <Navigation />
-                    {isLoaded && <Outlet />}
-                    <Modal />
-                </div>
-                <Footer />
-            </ModalProvider>
+            {/* <ModalProvider> */}
+            <div className="content">
+                <Navigation />
+                {isLoaded && <Outlet />}
+                {/* <Modal /> */}
+            </div>
+            <Footer />
+            {/* </ModalProvider> */}
         </div>
     );
 }
