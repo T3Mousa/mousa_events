@@ -12,9 +12,6 @@ export default defineConfig((mode) => ({
       failOnError: mode === "production",
     }),
   ],
-  build: {
-    outDir: 'dist', // The output directory for the build
-  },
   server: {
     port: 3000,
     proxy: {
