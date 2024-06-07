@@ -8,7 +8,7 @@ export default defineConfig((mode) => ({
     react(),
     eslintPlugin({
       lintOnStart: true,
-      // overrideConfigFile: "../frontend/.eslintrc.cjs",
+      overrideConfigFile: "../frontend/.eslintrc.cjs",
       failOnError: mode === "production",
     }),
   ],
