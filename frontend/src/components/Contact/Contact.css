@@ -1,13 +1,13 @@
 .contactUsBody {
-    margin: 20px 60px 200px 80px;
+    margin: 0px 60px 200px 80px;
     overflow: scroll;
-    margin-top: 20px;
 }
 
 .contactUsIntro {
-    font-family: "Dawning of a New Day", cursive;
-    font-size: 36px;
-    margin: 0;
+    font-family: "Style Script", cursive;
+    font-size: 40px;
+    /* margin: 0; */
+    margin: 40px 0 20px 0;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -21,6 +21,17 @@
     margin: auto 60px;
     font-family: "Red Hat Display", sans-serif;
 
+}
+
+.contactUsParas a {
+    text-decoration: none;
+    color: black;
+    margin-left: 5px;
+}
+
+.contactUsParas a:hover {
+    cursor: pointer;
+    color: rgb(213, 19, 124);
 }
 
 .inquiryForm {
@@ -120,6 +131,6 @@ button.submitForm:hover {
 
 @media only screen and (max-width: 767px) {
     p.contactUsIntro {
-        margin-top: -25px;
+        margin-top: 0px;
     }
 }

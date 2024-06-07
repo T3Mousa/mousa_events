@@ -27,6 +27,7 @@
     /* padding-right: 10px; */
     margin-right: 20px;
     margin-left: 20px;
+    margin-bottom: 10px;
     /* place-items: center; */
     text-decoration: none;
     color: black;
@@ -40,7 +41,7 @@
 
 .homeButton img {
     width: auto;
-    height: 10vh
+    height: 10vh;
 }
 
 .homeButton p {
@@ -185,8 +186,13 @@ button.menuButton {
         visibility: hidden;
     }
 
+    a.homeButton p {
+        margin-top: 10px;
+        margin-bottom: 0px;
+    }
+
     .navBar {
-        border-bottom: none;
+        margin-bottom: 40px;
     }
 
 }

@@ -1,15 +1,153 @@
+.homeBody {
+    margin: 0px 60px 200px 80px;
+    overflow: scroll;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+}
+
 .homeIntro {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-flow: column wrap;
     font-family: "Red Hat Display", sans-serif;
-    margin: 20px 80px;
+    /* margin: 20px 80px; */
     text-align: center;
     line-height: 1.75;
+    font-size: 18px;
+
 }
 
 .opening {
-    font-family: "Dawning of a New Day", cursive;
-    font-size: 28px;
+    font-family: "Style Script", cursive;
+    font-size: 36px;
+    margin: 40px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.closingImage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.closingImage img {
+    width: auto;
+    height: 25vh;
+    border-radius: 5%;
+}
+
+.closingRemarks {
+    display: block;
+    text-align: left;
+    margin: auto 25px auto 35px;
+    font-family: "Red Hat Display", sans-serif;
+}
+
+.homeClosing {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+}
+
+.servicesPageLink {
+    text-decoration: none;
+    color: black;
+    transition: transform 0.3s ease;
+}
+
+.servicesPageLink:hover {
+    color: rgb(213, 19, 124);
+    font-weight: 500;
+    transform: scale(1.1);
+}
+
+.imageCollage {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin: 40px 0;
+    /* position: relative; */
+}
+
+.imageContainer {
+    width: 30%;
+    /* overflow: hidden; */
+    border-radius: 10px;
+    margin: 20px 0px;
+    position: relative;
+    transition: transform 0.3s ease-in-out;
+
+}
+
+.imageContainer img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.closingWeddingImage {
+    text-align: center;
+}
+
+.closingWeddingImage img {
+    max-width: 100%;
+    height: 50vh;
+    margin-top: 250px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    border: 5px solid #fff;
+    /* White border */
+    transition: transform 0.3s, box-shadow 0.3s;
+    /* text-align: center; */
+}
+
+.weddings1 {
+    transition: transform 0.3s ease;
+    transform: rotate(-5deg);
+}
+
+.weddings2 {
+    transform: scale(1.2);
+    z-index: 20;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.weddings3 {
+    transition: transform 0.3s ease;
+    transform: rotate(5deg);
+    z-index: 0;
+}
+
+@media only screen and (max-width: 640px) {
+    .homeClosing {
+        flex-flow: row wrap;
+
+    }
+
+    .closingRemarks {
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 715px) {
+    .opening {
+        font-size: 28px;
+        margin: 10px 0;
+    }
+}
+
+@media only screen and (max-width: 875px) {
+
+    .closingWeddingImage img {
+        width: 95%;
+        height: 95%
+    }
 }

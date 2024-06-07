@@ -3,17 +3,28 @@
     display: flex;
     justify-content: center;
     align-items: center;
-
-    margin-top: 20px;
     width: 100%;
     flex-flow: column;
     /* background-color: #f0f0f0; */
 }
 
 .testimonialIntro {
-    font-family: "Dawning of a New Day", cursive;
-    font-size: 36px;
-    margin: 0 0 10px 0;
+    font-family: "Style Script", cursive;
+    font-size: 40px;
+    margin: 40px 0 10px 0;
+}
+
+.introPara {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column wrap;
+    font-family: "Red Hat Display", sans-serif;
+    /* margin: 20px 80px; */
+    text-align: center;
+    line-height: 1.75;
+    font-size: 16px;
+    margin: 0px 80px 60px 80px;
 }
 
 .testimonialsContainer {
@@ -39,7 +50,12 @@
     box-sizing: border-box;
     font-family: "Red Hat Display", sans-serif;
     line-height: 1.5;
-    font-size: 16px;
+    font-size: 20px;
+}
+
+.testimonialAuthor {
+    font-family: "Dawning of a New Day", cursive;
+    font-size: 28px;
 }
 
 .scroll-btn {

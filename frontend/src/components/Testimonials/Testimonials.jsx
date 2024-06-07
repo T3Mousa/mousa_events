@@ -48,6 +48,7 @@ const Testimonials = () => {
     return (
         <div className="testimonialBody">
             <p className="testimonialIntro">testimonials</p>
+            <p className="introPara">At Mousa Events, we pride ourselves on creating unforgettable experiences for our clients. Don&apos;t just take our word for it—hear what our clients have to say! Scroll through some heartfelt testimonials from those who have entrusted us with their most important moments. From weddings and corporate events to birthday parties and more, see how we&apos;ve helped turn their visions into reality.</p>
 
             <div className="testimonialsContainer">
                 <button className="scroll-btn left" onClick={prevTestimonial}><i className="fa-solid fa-arrow-left"></i></button>
@@ -55,7 +56,7 @@ const Testimonials = () => {
                     <i className="fa-solid fa-quote-left"></i>
                     <p>{testimonials[current].review}</p>
                     <i className="fa-solid fa-quote-right"></i>
-                    <p> - {testimonials[current].author}</p>
+                    <p className="testimonialAuthor"> -{testimonials[current].author}</p>
                 </div>
                 <button className="scroll-btn right" onClick={nextTestimonial}><i className="fa-solid fa-arrow-right"></i></button>
             </div>

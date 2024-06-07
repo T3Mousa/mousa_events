@@ -1,3 +1,4 @@
+
 import "./About.css"
 
 const About = () => {
@@ -6,7 +7,7 @@ const About = () => {
         <div className="aboutBody">
             <p className="aboutIntro">about us</p>
             <div className="myImages">
-                <img src="../images/about/aboutEdited.png" alt="headshot" />
+                <img src="../images/about/Headshots/hs4.jpg" alt="about headshot" />
             </div>
             <p className="aboutIntro2">Welcome!</p>
             <div className="aboutMe">

@@ -1,6 +1,14 @@
 .servicesListContainer {
-    margin: 20px 60px 200px 80px;
+    margin: 0px 60px 200px 80px;
     overflow: scroll;
+}
+
+.servicesIntro {
+    font-family: "Style Script", cursive;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .serviceHeading {
@@ -25,17 +33,13 @@
 .serviceDetails p {
     font-family: "Red Hat Display", sans-serif;
     margin: 10px 0px 40px 42px;
+    line-height: 1.5;
 }
 
-.servicesIntro {
-    font-family: "Dawning of a New Day", cursive;
-    font-size: 36px;
-    margin: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.serviceDetails p.indented {
+    text-indent: 25px;
+    margin-top: -25px;
 
-    margin-top: 20px;
 }
 
 @media only screen and (max-width: 767px) {

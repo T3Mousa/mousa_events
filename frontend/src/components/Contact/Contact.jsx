@@ -44,7 +44,7 @@ const Contact = () => {
             <p className="contactUsIntro">contact us</p>
             <div className="contactUsParas">
                 <p>We would love nothing more than to be a part of your special day!</p>
-                <p>Please fill out the inquiry form below and we will get back to you as soon as possible. You can also email us directly at mousaevents@gmail.com or call us at 904.525.1648. We look forward to hearing from you!</p>
+                <p>Please fill out the inquiry form below and we will get back to you as soon as possible. You can also email us directly at <a href="mailto:mousaevents@gmail.com">mousaevent@gmail.com</a> or call us at <a href="tel:9045251648">904.525.1648</a>. We look forward to hearing from you!</p>
             </div>
             {/* <div className="inquiryForm"> */}
             <form className="inquiryForm" onSubmit={handleSubmit}>

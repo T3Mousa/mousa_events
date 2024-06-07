@@ -47,13 +47,13 @@
     margin-left: 5px;
 }
 
-.footerContact p.footerEmail a:hover {
+.footerContact p.footerEmail a:hover,
+.footerContact p.footerPhone a:hover {
     cursor: pointer;
     color: rgb(213, 19, 124);
 }
 
 .footerContact p.footerPhone {
-    cursor: default;
     margin-top: 0;
 }
 
