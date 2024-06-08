@@ -1,11 +1,11 @@
 .servicesListContainer {
-    margin: 0px 60px 200px 80px;
+    margin: 0px 80px 200px 80px;
     overflow: scroll;
 }
 
 .servicesIntro {
-    font-family: "Style Script", cursive;
-    font-size: 40px;
+    font-family: "Merriweather", serif;
+    font-size: 32px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -15,10 +15,20 @@
     display: flex;
     flex-flow: row;
     align-items: center;
+    justify-content: space-between;
     gap: 10px;
-    font-family: "Dawning of a New Day", cursive;
-    font-size: 24px;
+    font-family: "Merriweather", serif;
+    font-size: 18px;
 
+}
+
+.serviceHeading .leftHeading {
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    gap: 10px;
+    font-family: "Merriweather", serif;
+    font-size: 18px;
 }
 
 .serviceHeading h3 {
@@ -27,7 +37,7 @@
 
 .serviceCard img {
     width: auto;
-    height: 5vh;
+    height: 4vh;
 }
 
 .serviceDetails p {
@@ -37,13 +47,21 @@
 }
 
 .serviceDetails p.indented {
-    text-indent: 25px;
+    text-indent: 30px;
     margin-top: -25px;
 
 }
 
+.serviceDetails p:last-of-type {
+    text-indent: 0px;
+}
+
 @media only screen and (max-width: 767px) {
     p.servicesIntro {
-        margin-top: -10px;
+        margin-top: 0px;
+    }
+
+    .serviceHeading h3 {
+        font-size: 20px;
     }
 }

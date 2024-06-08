@@ -4,35 +4,23 @@ const Services = () => {
     const services = [
         {
             id: 1,
-            name: 'Full Service Wedding Planning',
-            description: ["For couples who desire comprehensive support throughout the entire wedding planning process, our full-service wedding planning package is the ideal choice. From the moment you engage our services up to 12 months prior to your wedding day, our dedicated team will be there to guide you through every step. We assist with venue selection, vendor sourcing, budget management, design and décor, guest coordination, and all other aspects of wedding planning. Our goal is to transform your vision into a reality, ensuring that every detail is perfectly executed, and you can relax and enjoy the journey to your dream wedding."],
+            name: 'Full Service Event Planning',
+            description: ["Full service event planning is a comprehensive service that covers all aspects of planning and executing an event. This package includes:", "1. Initial consultation", "2. Venue selection", "3. Budget management", "4. Vendor coordination", "5. Event design and decor", "6. Logistics Management", "7. On-site coordination", "8. Post-event follow-up", "Overall, full service event planning provides clients with peace of mind and allows them to enjoy their event without having to worry about the details."],
+            cost: "Packages range $5000-$10000",
             image: '../images/photos/wedding2.JPG'
         },
         {
             id: 2,
             name: 'Day of Coordination',
-            description: ["At Mousa Events, we understand that even the most organized couples can benefit from an extra set of hands to ensure a seamless wedding day. With services beginning up to 30 days prior to your event, our day of coordination package is specifically designed for couples who have completed the majority of their wedding planning but need assistance with finalizing details and managing the logistics. With our expertise and attention to detail, we take care of the loose ends, allowing you to relax and fully enjoy your special day. This package includes:",
-                "Rehearsal day & Wedding day responsibilities", "Development & Excecution of the wedding day timeline", "Confirmation & oversight of all contracted vendors"],
+            description: ["Day of coordination, also known as event day coordination, is a service provided to ensure that all aspects of an event run smoothly on the actual day of the event. This service is typically offered to clients who have planned most of the event themselves but want professional assistance in executing their plans on the day of the event. Some key aspects of day of coordination include:", "Pre-event consulation (30-60 days prior to event date)", "Vendor coordination", "Timeline creation and management", "On-site management", "Coordination with venue staff", "Guest assistance", "Overall, day of coordiantion allows clients to relax and enjoy their event while a professional handles the behind-the-scenes details to ensure a seamless and stress-free experience."],
+            cost: "Packages range $1500-$5000",
             image: ''
         },
         {
-            id: 11,
-            name: 'Event Planning',
-            description: ['We offer full-service event planning for weddings, birthdays, corporate events, and more. Our experienced planners will work with you to create the perfect event tailored to your needs and budget.'],
-            image: 'event-planning.jpg'
-        },
-        {
-            id: 12,
-            name: 'Decorations',
-            description: ["Transform your venue with our stunning decorations. From floral arrangements to table settings, we'll help you create an ambiance that matches your theme and vision."],
-            image: 'decorations.jpg'
-        },
-        {
-            id: 13,
-            name: 'Entertainment',
-            description: ["Keep your guests entertained with our selection of entertainment options. Whether it's live music, DJs, or performers, we'll help you find the perfect entertainment for your event."],
-            image: 'entertainment.jpg'
-        },
+            id: 3,
+            name: '\u00C0 La Carte Services',
+            description: ["\u00C0 la carte event planning Services provide the flexibility to choose only the specific planning elements you need assistance with, allowing you to tailor our expertise to your unique requirements. This personalized approach ensures you receive professional support where you need it most, making your event planning process smoother and more enjoyable while maintaining your vision and control over the overall experience. Services offered:", "Photobooth rentals", "DJ services", "Live entertainment", "Rentals and Decor", "Balloon Garland and Decor", "Uplighting", "Cold sparklers", "Dancing on the Cloud", ""]
+        }
     ];
 
     return (
@@ -42,8 +30,13 @@ const Services = () => {
                 {services.map(service => (
                     <div key={service.id} className="serviceCard">
                         <div className="serviceHeading">
-                            <img src='images/mousa-events-fav.png' alt={service.name} />
-                            <h3>{service.name}</h3>
+                            <div className="leftHeading">
+                                <img src='images/mousa-events-fav.png' alt={service.name} />
+                                <h3>{service.name}</h3>
+                            </div>
+                            <div className="rightHeading">
+                                <h5>{service.cost}</h5>
+                            </div>
                         </div>
                         <div className="serviceDetails">
                             {service.description.map((paragraph, idx) => (

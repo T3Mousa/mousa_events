@@ -44,7 +44,7 @@
 .footerContact p.footerPhone a {
     text-decoration: none;
     color: black;
-    margin-left: 5px;
+    margin-left: 3px;
 }
 
 .footerContact p.footerEmail a:hover,
@@ -55,6 +55,10 @@
 
 .footerContact p.footerPhone {
     margin-top: 0;
+}
+
+.footerContact p.footerEmail {
+    margin-bottom: 5px;
 }
 
 .socialLinks a {
@@ -91,9 +95,9 @@
 }
 
 .connectPara {
-    font-family: "Dawning of a New Day", cursive;
-    font-weight: bold;
-    font-size: 20px;
+    font-family: "Merriweather", serif;
+    /* font-weight: bold; */
+    font-size: 16px;
 }
 
 p.connectPara {

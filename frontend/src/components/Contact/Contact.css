@@ -1,11 +1,11 @@
 .contactUsBody {
-    margin: 0px 60px 200px 80px;
+    margin: 0px 60px 200px 60px;
     overflow: scroll;
 }
 
 .contactUsIntro {
-    font-family: "Style Script", cursive;
-    font-size: 40px;
+    font-family: "Merriweather", serif;
+    font-size: 32px;
     /* margin: 0; */
     margin: 40px 0 20px 0;
     display: flex;
@@ -41,8 +41,8 @@
     gap: 10px;
     /* align-items: center; */
     justify-content: center;
-    margin-left: 60px;
-    margin-right: 80px;
+    margin-left: 100px;
+    margin-right: 120px;
     margin-top: 50px;
 }
 
@@ -88,9 +88,9 @@ textarea:focus {
 
 label {
     margin-top: 10px;
-    font-family: "Dawning of a New Day", cursive;
-    font-size: 24px;
-    font-weight: bold;
+    font-family: "Merriweather", serif;
+    font-size: 18px;
+    /* font-weight: bold; */
 }
 
 input.eventDate {
@@ -112,7 +112,7 @@ button.submitForm {
     border-radius: 10px;
     place-items: center;
     margin-top: 15px;
-
+    color: white
 }
 
 button.submitForm:hover {
@@ -120,6 +120,7 @@ button.submitForm:hover {
     background-color: rgb(213, 19, 124);
     cursor: pointer;
     font-weight: 600;
+    box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.363);
 }
 
 .submitButtonDiv {

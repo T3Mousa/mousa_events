@@ -9,9 +9,9 @@
 }
 
 .testimonialIntro {
-    font-family: "Style Script", cursive;
-    font-size: 40px;
-    margin: 40px 0 10px 0;
+    font-family: "Merriweather", serif;
+    font-size: 32px;
+    margin: 40px 0 20px 0;
 }
 
 .introPara {
@@ -24,7 +24,7 @@
     text-align: center;
     line-height: 1.75;
     font-size: 16px;
-    margin: 0px 80px 60px 80px;
+    margin: 0px 80px 40px 80px;
 }
 
 .testimonialsContainer {
@@ -41,7 +41,7 @@
     text-align: center;
     overflow: auto;
     font-family: "Red Hat Display", sans-serif;
-    margin-bottom: 200px;
+    /* margin-bottom: 100px; */
 }
 
 .testimonial {
@@ -54,8 +54,8 @@
 }
 
 .testimonialAuthor {
-    font-family: "Dawning of a New Day", cursive;
-    font-size: 28px;
+    font-family: "Merriweather", serif;
+    font-size: 20px;
 }
 
 .scroll-btn {
@@ -106,7 +106,7 @@
 }
 
 @media only screen and (max-width: 767px) {
-    .testimonialBody {
-        margin-top: -10px;
+    .testimonialIntro {
+        margin-top: 0px;
     }
 }

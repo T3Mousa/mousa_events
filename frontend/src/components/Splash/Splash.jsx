@@ -20,7 +20,7 @@ const Splash = () => {
     useEffect(() => {
         const intervalId = setInterval(() => {
             setCurrentSetIndex((prevIndex) => (prevIndex + 1) % Math.ceil(homePageImages.length / 3));
-        }, 5000); // Change image set every 3 seconds
+        }, 4000); // Change image set every 3 seconds
 
         return () => clearInterval(intervalId); // Clean up the interval on component unmount
     }, [homePageImages.length]);
@@ -31,7 +31,7 @@ const Splash = () => {
         <div className='homeBody'>
             <div className='homeIntro'>
                 <div className='opening'>
-                    where creativity and precision come together seamlessly
+                    Pull up a chair and let&apos;s plan your next unforgettable event!
                 </div>
 
 
@@ -44,11 +44,19 @@ const Splash = () => {
                 </div>
 
 
-                <p>From corporate gatherings to lavish weddings and milestone celebrations, we pride ourselves on delivering exceptional events tailored to your specific needs. Let us take the stress out of planning so you can savor every moment of your special day!</p>
+                <p className='homeIntroPara'>From corporate gatherings to lavish weddings and milestone celebrations, we pride ourselves on delivering exceptional events tailored to your specific needs. Let us take the stress out of planning so you can savor every moment of your special day!</p>
             </div >
+            <div className='eventPhotos'>
+                <img src="../images/photos/GrebeGraduationPhotos/decor/DSC01526.jpeg" alt="Grad Party 1" className='eventPhoto1' />
+                <img src="../images/photos/GrebeGraduationPhotos/florida/DSC02662.jpeg" alt="Grad Party 2" className='eventPhoto2' />
+                <img src="../images/photos/GrebeGraduationPhotos/decor/DSC01491.jpeg" alt="Grad Party 3" className='eventPhoto3' />
+                <img src="../images/photos/GrebeGraduationPhotos/florida/DSC03139.jpeg" alt="Grad Party 4" className='eventPhoto4' />
+                <img src="../images/photos/GrebeGraduationPhotos/decor/DSC01909.jpeg" alt="Grad Party 5" className='eventPhoto5' />
+            </div>
             <div className='homeClosing'>
                 <div className='closingImage'>
                     <img src="../images/about/Headshots/IMG_7050.jpg" alt="blue headshot" />
+
                 </div>
                 <div className='closingRemarks'>
                     <p>

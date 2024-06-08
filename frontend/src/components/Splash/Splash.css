@@ -1,5 +1,5 @@
 .homeBody {
-    margin: 0px 60px 200px 80px;
+    margin: 0px 60px 200px 60px;
     overflow: scroll;
     display: flex;
     justify-content: center;
@@ -20,9 +20,13 @@
 
 }
 
+.homeIntroPara {
+    margin-top: 20px;
+}
+
 .opening {
-    font-family: "Style Script", cursive;
-    font-size: 36px;
+    font-family: "Merriweather", serif;
+    font-size: 26px;
     margin: 40px 0;
     display: flex;
     justify-content: center;
@@ -53,7 +57,7 @@
     flex-flow: row;
     justify-content: center;
     align-items: center;
-    margin-top: 200px;
+    margin-top: 150px;
 }
 
 .servicesPageLink {
@@ -100,7 +104,7 @@
 .closingWeddingImage img {
     max-width: 100%;
     height: 50vh;
-    margin-top: 250px;
+    margin-top: 150px;
     border-radius: 10px;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
     border: 5px solid #fff;
@@ -126,6 +130,51 @@
     z-index: 0;
 }
 
+.eventPhotos {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    gap: 5px;
+    margin-top: 50px;
+}
+
+
+.eventPhotos img {
+    flex: 1 1 calc(25% - 10px);
+    box-sizing: border-box;
+    overflow: hidden;
+    width: 100%;
+    height: 12vh;
+    display: block;
+    border-radius: 3px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.eventPhoto1 {
+    transition: transform 0.3s ease;
+    transform: rotate(-2deg);
+}
+
+.eventPhoto2 {
+    transition: transform 0.3s ease;
+    transform: rotate(2deg);
+}
+
+.eventPhoto3 {
+    transition: transform 0.3s ease;
+    transform: rotate(-2deg);
+}
+
+.eventPhoto4 {
+    transition: transform 0.3s ease;
+    transform: rotate(2deg);
+}
+
+.eventPhoto5 {
+    transition: transform 0.3s ease;
+    transform: rotate(-2deg);
+}
+
 @media only screen and (max-width: 640px) {
     .homeClosing {
         flex-flow: row wrap;
@@ -140,7 +189,7 @@
 @media only screen and (max-width: 715px) {
     .opening {
         font-size: 28px;
-        margin: 10px 0;
+        margin: 0 0 10px 0;
     }
 }
 
@@ -150,4 +199,30 @@
         width: 95%;
         height: 95%
     }
+
+    .opening {
+        font-size: 20px;
+    }
+
+    .eventPhotos img {
+        width: 50%;
+        height: 50%;
+    }
+
+}
+
+@media only screen and (max-width: 767px) {
+    .opening {
+        margin-top: 0px;
+    }
+
+    .homeClosing {
+        flex-flow: row wrap;
+
+    }
+
+    .closingRemarks {
+        text-align: center;
+    }
+
 }
