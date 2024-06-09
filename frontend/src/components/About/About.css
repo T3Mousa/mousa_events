@@ -25,9 +25,14 @@
     align-items: center;
 }
 
+.myImages {
+    display: flex;
+    justify-content: center;
+}
+
 .myImages img {
-    width: auto;
-    height: 50vh;
+    width: 60%;
+    height: 60%;
     border-radius: 5%;
     transition: opacity 0.5s ease-in-out;
 }

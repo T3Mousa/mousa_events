@@ -25,16 +25,16 @@ const testimonials = [
     {
         id: 5,
         author: "Hien R.",
-        review: ["I met Amanda when I was looking for venues for my wedding. When I met her at the Ramallah Club off Parental Road, I was really iffy about the place but couldn't say no to Amanada. She was so sweet and upfront about everything. She made you feel welcome and she didn't try to sugarcoat anything just to book the venue. After I found out she was a coordinator, I was sold! She was awesome! She has the game on lock! She was on it with my vendors and on me :) Definitely recommend her for any event! Love her! Thanks Amanda for making my wedding experience special."]
+        review: ["I met Amanda when I was looking for venues for my wedding. When I met her at the Ramallah Club off Parental Road, I was really iffy about the place but couldn't say no to Amanda. She was so sweet and upfront about everything. She made you feel welcome and she didn't try to sugarcoat anything just to book the venue. After I found out she was a coordinator, I was sold! She was awesome! She has the game on lock! She was on it with my vendors and on me :) Definitely recommend her for any event! Love her! Thanks Amanda for making my wedding experience special."]
     },
     {
         id: 6,
         author: "Crystal M.",
-        review: ["Amanda Mousa made my dreams come true and I hihgly recommend her services to anyone! Just days before my wedding, weather caused a crunch to change to an indoor reception venue and she executed flawlessly. I kept getting glimpses of her on wedding day and felt very confident knowing things were in her hands. Pressure, crowds, vendors, wedding party and more, she managed it all. Wouldn't have happened without her!"]
+        review: ["Amanda Mousa made my dreams come true and I highly recommend her services to anyone! Just days before my wedding, weather caused a crunch to change to an indoor reception venue and she executed flawlessly. I kept getting glimpses of her on wedding day and felt very confident knowing things were in her hands. Pressure, crowds, vendors, wedding party and more, she managed it all. Wouldn't have happened without her!"]
     },
     {
         id: 7,
-        author: "Britt",
+        author: "Brittany G.",
         review: [
             "Amanda and her team worked with my sister-in-law to plan our Gender Reveal party ahead of the birth of our first child. This was one of the more intimate celebrations we've had, and one of the most special. From initial conversations with Amanda, she listened to everything that was important to us and seamlessly orchestrated every last detail. The team worked in beautiful surprise touches and personalized them to my husband and me, knowing this was a huge moment for our little family. The evening flowed so smoothly, and all of our guests had a wonderful time eating and mingling leading up to the big reveal.",
             "We have had the pleasure of working with Mousa Events for family events year round - from smaller showers to giant wedding receptions and grad bashes - you name it, they can flawlessly plan it. And of course we are thrilled to have Amanda and her team planning our daughter's first birthday as we speak! If you are looking for attentive, detail-oriented, and talented event planners - look no further than Amanda and her team!"

@@ -102,11 +102,7 @@ const galleryPhotos = [
     { url: '../images/photos/CarolynAndGeorge/ceremony/carolynandgeorge-189.jpg', title: 'Carolyn Gearoge Wedding' },
     { url: '../images/photos/ChelseaAndRossPhotos/firstlookformals/ChelseaandRossWedding-179.jpg', title: 'Chelsea & Ross Wedding 4' },
     { url: '../images/photos/NammourPhotos/WHP01501.jpg', title: 'Nammour8' },
-    { url: '../images/photos/ChelseaAndRossPhotos/reception/ChelseaandRossWedding-427.jpg', title: 'Chelsea Ross Wedding' },
-
-
-
-
+    { url: '../images/photos/ChelseaAndRossPhotos/reception/ChelseaandRossWedding-427.jpg', title: 'Chelsea Ross Wedding' }
 ];
 
 const Gallery = () => {
