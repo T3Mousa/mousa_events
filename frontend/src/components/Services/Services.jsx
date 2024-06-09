@@ -5,7 +5,7 @@ const Services = () => {
         {
             id: 1,
             name: 'Full Service Event Planning',
-            description: ["Full service event planning is a comprehensive service that covers all aspects of planning and executing an event. This package includes:", "Initial consultation", "Venue selection", "Budget management", "Vendor coordination", "Event design and decor", "Logistics Management", "On-site coordination", "Post-event follow-up", " "],
+            description: ["Full service event planning is a comprehensive service that covers all aspects of planning and executing an event. This package includes, but is not limited to:", "Initial consultation", "Venue selection", "Budget management", "Vendor coordination", "Event design and decor", "Logistics Management", "On-site coordination", "Post-event follow-up", " "],
             cost: "Package ranges from $5000-$10000",
             image: '../images/photos/wedding2.JPG'
         },
@@ -19,7 +19,7 @@ const Services = () => {
         {
             id: 3,
             name: '\u00C0 La Carte Services',
-            description: ["\u00C0 la carte event planning Services provide the flexibility to choose only the specific planning elements you need assistance with, allowing you to tailor our expertise to your unique requirements. This personalized approach ensures you receive professional support where you need it most, making your event planning process smoother and more enjoyable while maintaining your vision and control over the overall experience. Services offered:", "Photobooth rentals", "DJ services", "Live entertainment", "Rentals and Decor", "Balloon Garland and Decor", "Uplighting", "Cold sparklers", "Dancing on the Cloud", "Furniture rentals", " "]
+            description: ["\u00C0 la carte event planning services provide the flexibility to choose only the specific planning elements you need assistance with, allowing you to tailor our expertise to your unique requirements. This personalized approach ensures you receive professional support where you need it most, making your event planning process smoother and more enjoyable while maintaining your vision and control over the overall experience. Services offered:", "Photobooth rentals", "DJ services", "Live entertainment", "Rentals and Decor", "Balloon Garland and Decor", "Uplighting", "Cold sparklers", "Dancing on the Cloud", "Furniture rentals", "And more."]
         }
     ];
 

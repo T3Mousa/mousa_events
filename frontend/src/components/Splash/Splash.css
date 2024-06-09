@@ -1,6 +1,6 @@
 .homeBody {
     margin: 0px 60px 200px 60px;
-    overflow: scroll;
+    /* overflow: scroll; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -44,6 +44,7 @@
     width: auto;
     height: 35vh;
     border-radius: 5%;
+    border: 2px solid rgba(255, 255, 255, 0.8);
 }
 
 .closingRemarks {
@@ -163,6 +164,7 @@
     display: block;
     border-radius: 3px;
     transition: transform 0.3s, box-shadow 0.3s;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 /* .eventPhoto1 {
@@ -240,4 +242,11 @@
         text-align: center;
     }
 
+}
+
+@media only screen and (max-width: 1300px) {
+    .closingWeddingImage img {
+        width: 95%;
+        height: 95%
+    }
 }

@@ -39,7 +39,7 @@
     align-items: center;
     justify-content: center;
     text-align: center;
-    overflow: auto;
+    /* overflow: auto; */
     font-family: "Red Hat Display", sans-serif;
     /* margin-bottom: 100px; */
 }

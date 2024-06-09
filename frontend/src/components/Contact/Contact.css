@@ -1,6 +1,6 @@
 .contactUsBody {
     margin: 0px 60px 200px 60px;
-    overflow: scroll;
+    /* overflow: scroll; */
 }
 
 .contactUsIntro {
@@ -25,13 +25,13 @@
 
 .contactUsParas a {
     text-decoration: none;
-    color: black;
+    color: rgb(213, 19, 124);
     margin-left: 5px;
 }
 
 .contactUsParas a:hover {
     cursor: pointer;
-    color: rgb(213, 19, 124);
+    font-weight: bold;
 }
 
 .inquiryForm {

@@ -123,7 +123,7 @@ p.connectPara {
 
 .logo img {
     width: auto;
-    height: 8vh;
+    height: 10vh;
     margin-right: 75px;
 }
 
@@ -133,13 +133,33 @@ p.connectPara {
 
 .weddingBadge img {
     width: auto;
-    height: 8vh;
+    height: 10vh;
     margin-left: 75px;
 }
 
-div.footerConnect {
+.footerConnect {
     display: flex;
     justify-content: space-between;
     align-items: center;
     flex-flow: row;
+}
+
+@media only screen and (max-width: 767px) {
+    .footerContainer {
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .weddingBadge img {
+        height: 8vh;
+        margin-left: 20px;
+    }
+
+    .logo img {
+        height: 8vh;
+        margin-right: 20px;
+    }
 }
