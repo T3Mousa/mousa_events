@@ -43,7 +43,7 @@ const Footer = () => {
                                 </div>
                             </div>
                             <div className="disclaimer">
-                                <p>© {new Date().getFullYear()} Mousa Events. All rights reserved.</p>
+                                <p><i className="fa-regular fa-copyright"></i> {new Date().getFullYear()} Mousa Events. All rights reserved.</p>
                             </div>
                         </div>
                         <div className="weddingBadge">
