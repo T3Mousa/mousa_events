@@ -11,6 +11,10 @@
     align-items: center;
 }
 
+.serviceCard {
+    margin-bottom: 80px;
+}
+
 .serviceHeading {
     display: flex;
     flex-flow: row;

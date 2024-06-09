@@ -47,11 +47,14 @@ const Splash = () => {
                 <p className='homeIntroPara'>From corporate gatherings to lavish weddings and milestone celebrations, we pride ourselves on delivering exceptional events tailored to your specific needs. Let us take the stress out of planning so you can savor every moment of your special day!</p>
             </div >
             <div className='eventPhotos'>
-                <img src="../images/photos/GrebeGraduationPhotos/decor/DSC01526.jpeg" alt="Grad Party 1" className='eventPhoto1' />
-                <img src="../images/photos/GrebeGraduationPhotos/florida/DSC02662.jpeg" alt="Grad Party 2" className='eventPhoto2' />
-                <img src="../images/photos/GrebeGraduationPhotos/decor/DSC01491.jpeg" alt="Grad Party 3" className='eventPhoto3' />
-                <img src="../images/photos/GrebeGraduationPhotos/florida/DSC03139.jpeg" alt="Grad Party 4" className='eventPhoto4' />
-                <img src="../images/photos/GrebeGraduationPhotos/decor/DSC01909.jpeg" alt="Grad Party 5" className='eventPhoto5' />
+                <img src="../images/photos/GrebeGraduationPhotos/decor/DSC01526.jpeg" alt="Party 1" className='eventPhoto1' />
+                <img src="../images/photos/GrebeGraduationPhotos/florida/DSC00775.jpeg" alt="Party 2" className='eventPhoto2' />
+                <img src="../images/photos/GrebeGraduationPhotos/decor/DSC01909.jpeg" alt="Party 3" className='eventPhoto3' />
+            </div>
+            <div className='eventPhotos2'>
+                <img src="../images/photos/Venue Tent Photos/WHP08501.jpg" alt="Party 3" className='eventPhoto1' />
+                <img src="../images/photos/Venue Tent Photos/WHP08528.jpg" alt="Party 4" className='eventPhoto2' />
+                <img src="../images/photos/Venue Tent Photos/WHP08507.jpg" alt="Party 4" className='eventPhoto3' />
             </div>
             <div className='homeClosing'>
                 <div className='closingImage'>

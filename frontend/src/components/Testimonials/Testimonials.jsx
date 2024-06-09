@@ -39,6 +39,13 @@ const testimonials = [
             "Amanda and her team worked with my sister-in-law to plan our Gender Reveal party ahead of the birth of our first child. This was one of the more intimate celebrations we've had, and one of the most special. From initial conversations with Amanda, she listened to everything that was important to us and seamlessly orchestrated every last detail. The team worked in beautiful surprise touches and personalized them to my husband and me, knowing this was a huge moment for our little family. The evening flowed so smoothly, and all of our guests had a wonderful time eating and mingling leading up to the big reveal.",
             "We have had the pleasure of working with Mousa Events for family events year round - from smaller showers to giant wedding receptions and grad bashes - you name it, they can flawlessly plan it. And of course we are thrilled to have Amanda and her team planning our daughter's first birthday as we speak! If you are looking for attentive, detail-oriented, and talented event planners - look no further than Amanda and her team!"
         ]
+    },
+    {
+        id: 8,
+        author: "Lorraine K.",
+        review: [
+            `There aren't enough words to describe how incredible Amanda is. She took away all the worries I had of planning a wedding. Her constant reassurance kept me sane. My wedding was absolutely beautiful. She planned the entire thing and didn't miss a single beat. I still get compliments on how amazing everything turned out. Now I can't imagine planning anything without her. She will forever be in my "who do you recommend" book.`
+        ]
     }
 ]
 
