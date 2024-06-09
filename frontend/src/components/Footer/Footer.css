@@ -144,6 +144,10 @@ p.connectPara {
     flex-flow: row;
 }
 
+.disclaimer p {
+    font-size: 14px;
+}
+
 @media only screen and (max-width: 767px) {
     .footerContainer {
         width: 50%;
