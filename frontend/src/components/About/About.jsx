@@ -21,7 +21,10 @@ const About = () => {
 
                 <p className="signature">-Amanda</p>
             </div>
-
+            <div className="aboutJenny">
+                <h2>Jennifer Fakhouri - Event Coordinator </h2>
+                <p className="jennyBio">Jennifer is the Assistant Coordinator for Mousa Events, bringing her lifelong passion for weddings and event planning to the forefront of her career. Born just outside of Detroit, Michigan, she now resides in Saint Johns, Florida, with her husband, two teenage boys aged 16 and 13, and their beloved dog, Gianna. Jennifer discovered her love for planning at the young age of 5 and has since dedicated herself to creating unforgettable events. Her keen attention to detail, creative vision, and commitment to excellence make her an invaluable asset to the Mousa Events team. Jennifer’s warm and personable approach ensures that every event she helps coordinate is seamless, unique, and truly memorable.</p>
+            </div>
         </div>
 
     );

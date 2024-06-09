@@ -91,6 +91,10 @@
     /* line-height: 1.5; */
 }
 
+.serviceHeading .rightHeading {
+    margin-left: 100px;
+}
+
 @media only screen and (max-width: 767px) {
     p.servicesIntro {
         margin-top: 0px;
