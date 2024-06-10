@@ -146,7 +146,16 @@ p.connectPara {
 
 .disclaimer p {
     font-size: 14px;
-    margin: 0 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 40px;
+}
+
+.footerContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
 }
 
 @media only screen and (max-width: 767px) {

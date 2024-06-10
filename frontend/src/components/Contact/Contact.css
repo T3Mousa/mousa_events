@@ -134,4 +134,13 @@ button.submitForm:hover {
     p.contactUsIntro {
         margin-top: 0px;
     }
+
+    .inquiryForm {
+        margin-left: 40px;
+        margin-right: 60px;
+    }
+
+    .contactUsParas {
+        margin: auto 40px;
+    }
 }

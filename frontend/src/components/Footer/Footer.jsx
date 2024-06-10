@@ -42,13 +42,13 @@ const Footer = () => {
                                     <p className="footerPhone">Phone: <a href="tel:9045251648">904.525.1648</a></p>
                                 </div>
                             </div>
-                            <div className="disclaimer">
-                                <p><i className="fa-regular fa-copyright"></i> {new Date().getFullYear()} Mousa Events. All rights reserved.</p>
-                            </div>
                         </div>
                         <div className="weddingBadge">
                             <img src="../images/photos/BestWeddingPro_Top3_24 (1).png" alt="BestWeddingPro Badge" />
                         </div>
+                    </div>
+                    <div className="disclaimer">
+                        <p><i className="fa-regular fa-copyright"></i> {new Date().getFullYear()} Mousa Events. All rights reserved.</p>
                     </div>
                 </div>
             </div>
